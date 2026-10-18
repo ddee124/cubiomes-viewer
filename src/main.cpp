@@ -120,6 +120,7 @@ int main(int argc, char *argv[])
         QGuiApplication::setDesktopFileName("com.github.cubitect.cubiomes-viewer");
         QApplication::setAttribute(Qt::AA_UseStyleSheetPropagationInWidgetStyles, false);
 
+        qputenv("QT_QPA_PLATFORM","xcb");
         QApplication app(argc, argv);
 
         MainWindow mw(sessionpath, resultspath);

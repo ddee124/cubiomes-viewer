@@ -550,6 +550,11 @@
         <source>Sulfur Caves</source>
         <translation>硫磺洞穴</translation>
     </message>
+    <message>
+        <location filename="../../src/util.cpp" line="164"/>
+        <source>Dappled Forest</source>
+        <translation>斑驳森林</translation>
+    </message>
 </context>
 <context>
     <name>BiomeColorDialog</name>
