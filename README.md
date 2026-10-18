@@ -1,8 +1,13 @@
 # NOTICE
+
 It seems Cubitect stopped development.So this project is based on https://github.com/xpple/cubiomes and https://github.com/SunnySlopes/cubiomes-viewer
+
 I had problems when trying to compile SunnySlopes's 26.3 version (the git always gets the old 26.2 version),so I made this refering to SunnySlopes's 26.3 version.
+
 I removed the de_DE lang because I don't understand German language.
+
 I only tested this on Debian GNU/Linux 13. I am not very clear about Qt development on windows.
+
 I made some changes in src/main.cpp to enforce X11 mode.This solves the icon falls to default problem and the mouse moving not sync with the map problem in wayland.
 
 
