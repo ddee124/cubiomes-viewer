@@ -233,7 +233,6 @@ RESOURCES += \
 
 TRANSLATIONS += \
         rc/lang/en_US.ts \
-        rc/lang/de_DE.ts \
         rc/lang/zh_CN.ts
 
 

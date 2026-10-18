@@ -2356,291 +2356,296 @@ Leave blank for the default behaviour</source>
     </message>
     <message>
         <location filename="../../src/conditiondialog.cpp" line="602"/>
-        <location filename="../../src/search.h" line="336"/>
+        <location filename="../../src/search.h" line="338"/>
         <source>Climate noise samples</source>
         <translation>气候参数噪声采样</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="337"/>
+        <location filename="../../src/search.h" line="339"/>
         <source>Samples climate noise in a given area to find if a proportion of the biomes match a set of allowed biomes.</source>
         <translation>判断指定区域内的气候参数是否有指定的比例满足要求</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="345"/>
+        <location filename="../../src/search.h" line="347"/>
         <source>Finds the location where a climate parameter reaches its minimum or maximum.</source>
         <translation>找到该区域中气候参数的极值</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="352"/>
+        <location filename="../../src/search.h" line="354"/>
         <source>Finds the center position of a given biome.</source>
         <translation>找到给定群系的中心点</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="358"/>
+        <location filename="../../src/search.h" line="360"/>
         <source>Locate biome center 1:256</source>
         <translation>群系中心定位器 1:256</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="359"/>
+        <location filename="../../src/search.h" line="361"/>
         <source>Finds the center position of a given biome. Based on the 1:256 biome layer.</source>
         <translation>基于1:256群系层找到给定群系的中心点</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="365"/>
+        <location filename="../../src/search.h" line="367"/>
         <source>Temperature categories</source>
         <translation>温度类别</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="366"/>
+        <location filename="../../src/search.h" line="368"/>
         <source>Checks that the area has a minimum of all the required temperature categories.</source>
         <translation>检查这块区域是否包含大于等于你所指定的数目的温度群系</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="472"/>
+        <location filename="../../src/search.h" line="474"/>
         <source>Ocean ruin</source>
         <translation>海底遗迹</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="275"/>
+        <location filename="../../src/search.h" line="277"/>
         <source>Biome samples</source>
         <translation>群系比例</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="263"/>
+        <location filename="../../src/search.h" line="265"/>
         <source>Double Ocean Monument</source>
         <translation>二联海底神殿</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="264"/>
+        <location filename="../../src/search.h" line="266"/>
         <source>Requires two ocean monuments where one monument is within 180 blocks of the other (forming a circle centered at one monument). At least one monument must be within the specified search range. The x and z differences between the two monuments must not be 160 and 80 respectively (i.e., this is the only invalid configuration but still valid for the filter).</source>
         <translatorcomment>简而言之：在给定的范围内存在可以同时被单人刷怪范围完全覆盖的两个海底神殿</translatorcomment>
         <translation>要求以其中一个海底神殿为圆心半径180内存在另一个海底神殿的中心(且其xz差值不为160,80或80,160)
 任意一个海底神殿的中心位于给定范围内条件即可成立</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="276"/>
+        <location filename="../../src/search.h" line="278"/>
         <source>Samples biomes in a given area to find if a proportion of the biomes match a set of allowed biomes.</source>
         <translation>判断指定区域内的群系比例是否满足指定的群系比例</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="284"/>
+        <location filename="../../src/search.h" line="286"/>
         <source>Overworld at scale</source>
         <translation>主世界群系</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="292"/>
+        <location filename="../../src/search.h" line="294"/>
         <source>Nether at scale</source>
         <translation>下界群系</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="293"/>
+        <location filename="../../src/search.h" line="295"/>
         <source>Nether biomes sampled on a scaled grid.</source>
         <translation>以一定比例取样的下界群系</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="299"/>
+        <location filename="../../src/search.h" line="301"/>
         <source>End at scale</source>
         <translation>末地群系</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="300"/>
+        <location filename="../../src/search.h" line="302"/>
         <source>End biomes sampled on a scaled grid.</source>
         <translation>以一定比例取样的末地群系</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="307"/>
+        <location filename="../../src/search.h" line="309"/>
         <source>Biome layer 1:4 RIVER</source>
         <translation>群系筛选 1:4 河流</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="317"/>
+        <location filename="../../src/search.h" line="319"/>
         <source>Biome layer 1:256 O.TEMP</source>
         <translation>群系筛选 1:256 海洋温度</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="328"/>
+        <location filename="../../src/search.h" line="330"/>
         <source>Climate parameters</source>
         <translation>群系气候参数</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="344"/>
+        <location filename="../../src/search.h" line="346"/>
         <source>Locate climate extreme</source>
         <translation>定位群系参数极值</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="351"/>
+        <location filename="../../src/search.h" line="353"/>
         <source>Locate biome center</source>
         <translation>定位群系中心</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="373"/>
+        <location filename="../../src/search.h" line="375"/>
         <source>Spawn</source>
         <translation>出生点</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="380"/>
+        <location filename="../../src/search.h" line="382"/>
         <source>Slime chunk</source>
         <translation>史莱姆区块</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="386"/>
+        <location filename="../../src/search.h" line="388"/>
         <source>Surface height</source>
         <translation>地表高度</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="387"/>
+        <location filename="../../src/search.h" line="390"/>
         <source>Check the approximate surface height at scale 1:4 at a single coordinate.</source>
         <translation>以1:4的比例在某个坐标检查大致地表高度</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="394"/>
+        <location filename="../../src/search.h" line="396"/>
         <source>First stronghold</source>
         <translation>首个要塞</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="395"/>
+        <location filename="../../src/search.h" line="398"/>
         <source>Finds the approxmiate location of the first stronghold (+/-112 blocks). Depends only on the 48-bit seed.</source>
         <translation>仅依靠低48位(二进制)找到第一个要塞的大致位置(+/-112格)</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="403"/>
+        <location filename="../../src/search.h" line="405"/>
         <source>Stronghold</source>
         <translation>要塞</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="410"/>
+        <location filename="../../src/search.h" line="412"/>
         <source>Village</source>
         <translation>村庄</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="417"/>
+        <location filename="../../src/search.h" line="419"/>
         <source>Abandoned mineshaft</source>
         <translation>废弃矿井</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="424"/>
+        <location filename="../../src/search.h" line="426"/>
         <source>Desert pyramid</source>
         <translation>沙漠神殿</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="425"/>
+        <location filename="../../src/search.h" line="428"/>
         <source>In version 1.18+, desert pyramids depend on surface height and may fail to generate near caves/aquifers, rivers and oceans.</source>
         <translation>注意, 在1.18中, 林地府邸、沙漠神殿和丛林神殿的生成还会考虑其表面的高度, 所以其在（含水）洞穴、河流或者海洋群系（甚至是较高的沙丘）周围可能会生成失败</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="433"/>
+        <location filename="../../src/search.h" line="435"/>
         <source>Jungle temple</source>
         <translation>丛林神殿</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="434"/>
+        <location filename="../../src/search.h" line="437"/>
         <source>In version 1.18+, jungle temples depend on surface height and may fail to generate near caves/aquifers, rivers and oceans.</source>
         <translation>注意, 在1.18中, 林地府邸、沙漠神殿和丛林神殿的生成还会考虑其表面的高度, 所以其在（含水）洞穴、河流或者海洋群系（甚至是较高的沙丘）周围可能会生成失败</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="442"/>
+        <location filename="../../src/search.h" line="444"/>
         <source>Swamp hut</source>
         <translation>女巫小屋</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="449"/>
+        <location filename="../../src/search.h" line="451"/>
         <source>Ocean monument</source>
         <translation>海底神殿</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="456"/>
+        <location filename="../../src/search.h" line="458"/>
         <source>Igloo</source>
         <translation>冰屋</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="463"/>
+        <location filename="../../src/search.h" line="465"/>
         <source>Woodland mansion</source>
         <translation>林地府邸</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="464"/>
+        <location filename="../../src/search.h" line="467"/>
         <source>In version 1.18+, mansions depend on surface height and may fail to generate near caves/aquifers, rivers and oceans.</source>
         <translation>注意, 在1.18中, 林地府邸、沙漠神殿和丛林神殿的生成还会考虑其表面的高度, 所以其在（含水）洞穴、河流或者海洋群系（甚至是较高的沙丘）周围可能会生成失败</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="479"/>
+        <location filename="../../src/search.h" line="481"/>
         <source>Shipwreck</source>
         <translation>沉船</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="486"/>
+        <location filename="../../src/search.h" line="488"/>
         <source>Buried treasure</source>
         <translation>宝藏</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="487"/>
+        <location filename="../../src/search.h" line="490"/>
         <source>Buried treasures are always positioned near the center of a chunk rather than a chunk boarder. Make sure the testing area is set accordingly.</source>
         <translation>宝藏总是出现在区块中心附近而不是区块边界附近, 请合理划定查找范围</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="496"/>
+        <location filename="../../src/search.h" line="498"/>
         <source>Desert well</source>
         <translation>沙漠水井</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="503"/>
+        <location filename="../../src/search.h" line="505"/>
         <source>Pillager outpost</source>
         <translation>掠夺者前哨站</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="510"/>
+        <location filename="../../src/search.h" line="512"/>
         <source>Ancient city</source>
         <translation>远古城市</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="517"/>
+        <location filename="../../src/search.h" line="519"/>
         <source>Trail ruins</source>
         <translation>古迹废墟</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="524"/>
+        <location filename="../../src/search.h" line="526"/>
         <source>Trial chambers</source>
         <translation>试炼密室</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="531"/>
+        <location filename="../../src/search.h" line="533"/>
         <source>Ruined portal (overworld)</source>
         <translation>废弃传送门(主世界)</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="538"/>
+        <location filename="../../src/search.h" line="540"/>
         <source>Ruined portal (nether)</source>
         <translation>废弃传送门(下界)</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="545"/>
+        <location filename="../../src/search.h" line="547"/>
         <source>Nether fortress</source>
         <translation>下界要塞</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="552"/>
+        <location filename="../../src/search.h" line="554"/>
         <source>Bastion remnant</source>
         <translation>堡垒遗迹</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="559"/>
+        <location filename="../../src/search.h" line="561"/>
         <source>End city</source>
         <translation>末地城</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="566"/>
+        <location filename="../../src/search.h" line="568"/>
         <source>End gateway</source>
         <translation>末地(返程)折跃门</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="567"/>
+        <location filename="../../src/search.h" line="570"/>
         <source>Checks only scattered return gateways. Does not include those generated when defeating the dragon.</source>
         <translation>特指返程折跃门, 而非那些你打龙开的折跃门</translation>
     </message>
     <message>
-        <location filename="../../src/search.h" line="575"/>
+        <location filename="../../src/search.h" line="577"/>
         <source>Nether fossil</source>
         <translation>下界化石</translation>
+    </message>
+    <message>
+        <location filename="../../src/search.h" line="584"/>
+        <source>Abandoned camp</source>
+        <translation>废弃营地</translation>
     </message>
     <message>
         <location filename="../../src/scripts.cpp" line="219"/>
@@ -4107,26 +4112,31 @@ Applies only to feature-structures of region-size = 32 and chunk-gap = 8, in par
     </message>
     <message>
         <location filename="../../src/config.cpp" line="165"/>
+        <source>Abandoned Camp</source>
+        <translation>废弃营地</translation>
+    </message>
+    <message>
+        <location filename="../../src/config.cpp" line="166"/>
         <source>Nether Fortress</source>
         <translation>下界要塞</translation>
     </message>
     <message>
-        <location filename="../../src/config.cpp" line="166"/>
+        <location filename="../../src/config.cpp" line="167"/>
         <source>Bastion Remnant</source>
         <translation>堡垒遗迹</translation>
     </message>
     <message>
-        <location filename="../../src/config.cpp" line="167"/>
+        <location filename="../../src/config.cpp" line="168"/>
         <source>Nether Fossil</source>
         <translation>下界化石</translation>
     </message>
     <message>
-        <location filename="../../src/config.cpp" line="168"/>
+        <location filename="../../src/config.cpp" line="169"/>
         <source>End City</source>
         <translation>末地城</translation>
     </message>
     <message>
-        <location filename="../../src/config.cpp" line="169"/>
+        <location filename="../../src/config.cpp" line="170"/>
         <source>End Gateway</source>
         <translation>末地折跃门</translation>
     </message>

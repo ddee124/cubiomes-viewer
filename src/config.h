@@ -121,6 +121,7 @@ enum {
     D_TRAILRUINS,
     D_CHAMBERS,
     D_PORTAL,
+    D_CAMP,
     D_PORTALN,
     D_FORTESS,
     D_BASTION,

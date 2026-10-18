@@ -94,6 +94,7 @@ enum
     F_CHAMBERS,
     F_DM,  // Double Monument - added at end for backwards compatibility
     F_FOSSIL,
+    F_CAMP,
     // new filters should be added here at the end to keep some downwards compatibility
     FILTER_MAX,
 };
@@ -574,6 +575,13 @@ static const struct FilterList : private FilterInfo
             CAT_STRUCT, 0, LOC_RAD, Nether_Fossil, 1, BR_CLUST, MC_1_16_1, MC_NEWEST, -1, 0, disp++,
             "fossil",
             QT_TRANSLATE_NOOP("Filter", "Nether fossil"),
+            ""
+        };
+        
+        list[F_CAMP] = FilterInfo{
+            CAT_STRUCT, 1, LOC_RAD, Abandoned_Camp, 1, BR_CLUST, MC_26_3, MC_NEWEST, 0, 0, disp++,
+            "camp",
+            QT_TRANSLATE_NOOP("Filter", "Abandoned camp"),
             ""
         };
     }
