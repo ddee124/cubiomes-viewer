@@ -555,6 +555,11 @@
         <source>Dappled Forest</source>
         <translation>斑驳森林</translation>
     </message>
+    <message>
+        <location filename="../../src/util.cpp" line="166"/>
+        <source>Ice Caves</source>
+        <translation>冰封洞穴</translation>
+    </message>
 </context>
 <context>
     <name>BiomeColorDialog</name>

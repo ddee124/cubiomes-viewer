@@ -162,6 +162,8 @@ QString getBiomeDisplay(int mc, int id)
     case sulfur_caves:                  return QApplication::translate("Biome", "Sulfur Caves");
     // 26.3
     case dappled_forest:                return QApplication::translate("Biome", "Dappled Forest");
+    // 26.4-snapshot3
+    case ice_caves:                     return QApplication::translate("Biome", "Ice Caves");
     }
     const char *name = biome2str(mc, id);
     return name ? name : "";
