@@ -1474,6 +1474,7 @@ L_qm_any:
 
     case F_FORTRESS:
     case F_BASTION:
+    case F_FOSSIL:
 
     case F_ENDCITY:
     case F_GATEWAY:

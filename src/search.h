@@ -534,10 +534,10 @@ static const struct FilterList : private FilterInfo
             ""
         };
 
-        list[F_PORTALN] = FilterInfo{
-            CAT_STRUCT, 0, LOC_RAD, Ruined_Portal_N, 1, BR_CLUST, MC_1_16_1, MC_NEWEST, -1, 0, disp++,
-            "portal",
-            QT_TRANSLATE_NOOP("Filter", "Ruined portal (nether)"),
+        list[F_CAMP] = FilterInfo{
+            CAT_STRUCT, 1, LOC_RAD, Abandoned_Camp, 1, BR_CLUST, MC_26_3, MC_NEWEST, 0, 0, disp++,
+            "camp",
+            QT_TRANSLATE_NOOP("Filter", "Abandoned camp"),
             ""
         };
 
@@ -555,6 +555,20 @@ static const struct FilterList : private FilterInfo
             ""
         };
 
+        list[F_PORTALN] = FilterInfo{
+            CAT_STRUCT, 0, LOC_RAD, Ruined_Portal_N, 1, BR_CLUST, MC_1_16_1, MC_NEWEST, -1, 0, disp++,
+            "portal",
+            QT_TRANSLATE_NOOP("Filter", "Ruined portal (nether)"),
+            ""
+        };
+
+        list[F_FOSSIL] = FilterInfo{
+            CAT_STRUCT, 0, LOC_RAD, Nether_Fossil, 1, BR_CLUST, MC_1_16_1, MC_NEWEST, -1, 0, disp++,
+            "fossil",
+            QT_TRANSLATE_NOOP("Filter", "Nether fossil"),
+            ""
+        };
+
         list[F_ENDCITY] = FilterInfo{
             CAT_STRUCT, 0, LOC_RAD, End_City, 1, BR_CLUST, MC_1_9, MC_NEWEST, +1, 0, disp++,
             "endcity",
@@ -569,20 +583,6 @@ static const struct FilterList : private FilterInfo
             QT_TRANSLATE_NOOP("Filter",
             "Checks only scattered return gateways. Does not include those generated "
             "when defeating the dragon.")
-        };
-
-        list[F_FOSSIL] = FilterInfo{
-            CAT_STRUCT, 0, LOC_RAD, Nether_Fossil, 1, BR_CLUST, MC_1_16_1, MC_NEWEST, -1, 0, disp++,
-            "fossil",
-            QT_TRANSLATE_NOOP("Filter", "Nether fossil"),
-            ""
-        };
-        
-        list[F_CAMP] = FilterInfo{
-            CAT_STRUCT, 1, LOC_RAD, Abandoned_Camp, 1, BR_CLUST, MC_26_3, MC_NEWEST, 0, 0, disp++,
-            "camp",
-            QT_TRANSLATE_NOOP("Filter", "Abandoned camp"),
-            ""
         };
     }
 }
