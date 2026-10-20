@@ -14,25 +14,18 @@ I made some changes in src/main.cpp to enforce X11 mode.This solves the icon fal
 # Cubiomes Viewer
 
 Cubiomes Viewer provides a graphical interface for the efficient and flexible
-seed-finding utilities provided by [cubiomes](https://github.com/Cubitect/cubiomes)
+seed-finding utilities provided by [cubiomes](https://github.com/ddee124/cubiomes)
 and a map viewer for the Minecraft biomes and structure generation.
 
 The tool is designed for high performance and supports Minecraft Java Edition
-main releases up to 1.21.
+main releases up to 26.4-snapshot3
 
 
 ## Download
 
-Precompiled binaries can be found in the [releases section](https://github.com/Cubitect/cubiomes-viewer/releases)
+Precompiled binaries can be found in the [releases section](https://github.com/ddee124/cubiomes-viewer/releases)
 on GitHub. This includes single file executables, which are statically
 linked against [Qt](https://www.qt.io).
-
-A Flatpak for the tool is available on
-[Flathub](https://flathub.org/apps/details/com.github.cubitect.cubiomes-viewer).
-
-For Arch Linux users, the tool may be found in the
-[AUR](https://aur.archlinux.org/packages/cubiomes-viewer) thanks to
-[JakobDev](https://github.com/JakobDev).
 
 Non-PC platforms, such as macOS, are not formally supported, but you can check
 [here](https://github.com/Cubitect/cubiomes-viewer/issues/107) for more
@@ -91,7 +84,6 @@ Screenshots were taken of Cubiomes Viewer v4.0.
 The active language can be selected under `Edit preferences`, which currently includes translations for:
 
 - English
-- German
 - Chinese
 
 Chinese translations are provided by [SunnySlopes](https://github.com/SunnySlopes)
