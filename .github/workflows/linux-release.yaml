@@ -32,4 +32,4 @@ jobs:
              qmake ..
              make
              cd ..
-             cp build/env.PROG env.PROG
+             cp build/${{env.PROG}} ${{env.PROG}}
