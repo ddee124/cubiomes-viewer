@@ -30,6 +30,6 @@ jobs:
              mkdir build
              cd build
              qmake ..
-             make
+             make -j$(nproc)
              cd ..
              cp build/${{env.PROG}} ${{env.PROG}}
