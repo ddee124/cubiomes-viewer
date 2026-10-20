@@ -1,0 +1,35 @@
+name: Linux Release
+
+on: [push, pull_request]
+
+env:
+  PROG:       cubiomes-viewer
+  SOURCE_DIR: ${{github.workspace}}
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Install Qt5 Dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            build-essential cmake \
+            qtbase5-dev qt5-qmake \
+            libqt5svg5-dev libqt5opengl5-dev
+
+      - name: Build
+        working_directory: ${{env.SOURCE_DIR}}
+        run: |
+             mkdir build
+             cd build
+             qmake ..
+             make
+             cd ..
+             cp build/env.PROG env.PROG
